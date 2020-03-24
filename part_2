@@ -1,0 +1,5 @@
+#Trimming Our Data
+#Since we have so many attributes and not all are relevant we need to select the ones we want to use. We can do this by typing the following.
+
+data = data[["G1", "G2", "G3", "studytime", "failures", "absences"]]
+#Now our data frame only has the information associated with those 6 attributes.
