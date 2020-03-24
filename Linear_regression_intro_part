@@ -1,0 +1,14 @@
+#Implementing the Algorithm
+#Now that we understand how linear regression works we can use it to predict students final grades.
+
+#We will start by defining the model which we will be using.
+
+linear = linear_model.LinearRegression()
+#Next we will train and score our model using the arrays we created in the previous tutorial.
+
+linear.fit(x_train, y_train)
+acc = linear.score(x_test, y_test) # acc stands for accuracy 
+#To see how well our algorithm performed on our test data we can print out the accuracy.
+
+print(acc)
+#For this specific data set a score of above 80% is fairly good.
